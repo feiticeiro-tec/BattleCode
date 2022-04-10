@@ -41,7 +41,7 @@ Estrutura = createMap(jogadores)[0]
 ```
 from battle_code import vencedor
 Estrutura -> Object Fase
-vencedor(Estrutura,name)
+vencedor(Estrutura,name) -> Dict
 ```
 #### Exibição HTML
 ```
