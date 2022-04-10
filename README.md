@@ -49,3 +49,8 @@ vencedor(Estrutura,name) -> Dict
 Estrutura -> Object Fase
 #Render Estrutura.to_html()
 ```
+#### Class Fase
+```
+class Fase():
+        def __init__(self,title:str,anterior:list):
+```
