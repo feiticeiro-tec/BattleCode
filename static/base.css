@@ -1,0 +1,49 @@
+body,html{
+    margin: 0px;
+    padding:0px;
+}
+.tf-tree{
+    width: fit-content;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 18px;
+    
+    }
+.tf-tree .tf-nc{
+    
+}
+.tf-tree li{
+
+    padding: 0 5px;
+}
+.ganhador{
+    width: fit-content;
+    margin: 10px auto;
+}
+nav{
+    margin-bottom: 10px;
+}
+nav ul,nav li,nav a{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    place-self: center;
+}
+nav ul{
+    display: flex;
+    height: 40px;
+    background-color: gray;
+    justify-content: space-around;
+}
+nav li{
+    background-color: white;
+    padding: 2px 11px;
+    border-radius: 10%;
+}
+nav a{
+    color:black
+}

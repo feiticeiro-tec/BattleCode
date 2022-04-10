@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block Body %}
+    {% if Estrutura %}
+        <div class="ganhador">
+            <form action="/ganhador" method="post" id="Form">
+                <input type="text" name="ganhador">
+                <input type="submit" value="Avançar">
+            </form>
+        </div>
+    {% endif %}
+{% endblock %}

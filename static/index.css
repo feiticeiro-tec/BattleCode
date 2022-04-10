@@ -1,0 +1,26 @@
+article{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tf-tree{
+    margin: 0px;
+    }
+#Form{
+    display: flex;
+    width: 180px;
+    flex-direction: column;
+
+}
+@media screen and (max-width: 800px){
+    article{
+        flex-direction: column;
+    }
+    .tf-tree{
+        margin: auto;
+    }
+    .box{
+        margin:auto
+    }
+    
+}
