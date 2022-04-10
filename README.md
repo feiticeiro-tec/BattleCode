@@ -52,5 +52,5 @@ Estrutura -> Object Fase
 #### Class Fase
 ```
 class Fase():
-        def __init__(self,title:str,anterior:list):
+        def __init__(self,title:str,anterior:list):# anterior Estrutura ou uma lista de objetos Fase
 ```
